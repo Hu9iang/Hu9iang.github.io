@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>胡强的个人网站</title>
+    <style>
+      body {
+        margin: 0px;
+        width: 100%;
+        height: 100vh;
+       background-color: rgba(225, 180, 243, 0.534);
+      }
+       /* * {
+        border: 1px solid black;
+      }  */
+      .flex {
+        display: flex;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .flex3 {
+        flex: 3;
+      }
+      .flex51 {
+        flex: 51;
+      }
+      .flex2 {
+        flex: 2;
+      }
+      .flex8 {
+        flex: 8;
+      }
+      .dx {
+        height: 6000px;
+        width: 100%;
+      }
+      .home {
+        height: 900px;
+        overflow: hidden;
+        width: 100%;
+      }
+      .zongst {
+        margin: 8px;
+        margin-right: 8px;
+        margin-top: 8px;
+      }
+      .txjz {
+        align-items: center;
+        justify-content: center;
+      }
+      .bs {
+        background-color: rgb(241, 241, 241);
+      }
+      .img {
+        width: 100%;
+        height: 100%;
+      }
+      div {
+        position: relative;
+      }
+      h1 {
+        font-size: 40px;
+        position: absolute;
+        top: 250px;
+        left: 1200px;
+      }
+      h2 {
+        font-size: 30px;
+        position: absolute;
+        top: 310px;
+        left: 1230px;
+      }
+      .cszt {
+        background-image: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          color-stop(0, #f22),
+          color-stop(0.15, #f2f),
+          color-stop(0.3, #22f),
+          color-stop(0.45, #2ff),
+          color-stop(0.6, rgb(226, 17, 216)),
+          color-stop(0.75, rgb(224, 7, 127)),
+          color-stop(0.9, #ff2),
+          color-stop(1, #f22)
+        );
+        color: transparent;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -ms-background-clip: text;
+      }
+      .mgr2 {
+        margin: 2px;
+        padding: 3px;
+      }
+      .mgr5 {
+        margin: 5px;
+        padding: 3px;
+      }
+      .img1 {
+        height: 300px;
+        width: 100%;
+      }
+      .yy {
+        box-shadow: 5px 5px 10px -4px rgba(14, 10, 12, 0.788);
+      }
+      a:link {
+        text-decoration: none;
+        color: rgb(221, 23, 116);
+      } /*未访问的链接显示为蓝色，text-decoration:none将下划线隐藏*/
+      a:visited {
+        color: black;
+      } /*用户已访问过的链接显示黑色*/
+      a:hover {
+        color: pink;
+      } /*鼠标放置在链接上时显示为粉色*/
+      a:active {
+        color: yellow;
+      } /* 链接被点击那一刻显示黄色 */
+      .jz {
+       text-align: center;
+       margin: auto;
+       font-size: 40px;
+       text-shadow: 2px 3px 1px pink;
+       color: rgb(138, 175, 180);
+      }
+      .dh {
+        padding: 10px 20px;
+        border-bottom: 1px solid pink;
+      }
+      /* 当屏幕的宽度小于600px时改变css */
+      @media (max-width: 600px) {
+        .ceBian {
+          display: none;
+        }
+
+        .nrq {
+          flex-direction: column;
+        }
+
+        .sjq {
+          flex-direction: column;
+        }
+
+        .yq {
+          margin-left: 8px;
+        }
+
+        .sjk {
+          margin: 0 0 8px;
+        }
+      }
+    </style>
+  </head>
+  <body class="flex dx column ">
+    <!-- 内容区 -->
+    <div class="flex flex50 column zongst align=center" >
+      <!-- home区 -->
+      <div class="flex  div yy " style="margin-bottom: 40px;">
+        <img src="tp/1.jpg" class="img" height="100%" />
+        <h1 class="jz">欢迎来到我的个人网站</h1>
+        <h2 class="jz">不忘初心,方得始终！</h2>
+      </div>
+      <!-- 信息区区 -->
+      <div class="flex flex8 column zongst">
+        <!-- 基本信息区 -->
+        <div class="flex flex3 zongst">
+          <!-- 基本图片区 -->
+          <div class="flex3 mgr2 yy">
+            <img src="tp/el.jpg" class="img"/>
+          </div>
+          <!-- 基本信息区 -->
+          <div class="flex2 flex column">
+            <div class="flex flex1 mgr2 column dh yy">
+                <p class="jz">姓名：胡强</p>
+            </div>
+            <div class="flex flex1 mgr2 column dh yy">
+              <p class="jz">出生日期：1999.09.08</p>
+            </div>
+            <div class="flex flex1 mgr2 column dh yy">
+              <p class="jz">住址：四川凉山（就是全国数一数二贫困地区）</p>
+            </div>
+            <div class="flex flex1 mgr2 column dh yy">
+              <p class="jz">专业：软件设计</p>
+            </div>
+            <div class="flex flex1 mgr2 column dh yy">
+              <p class="jz">民族：彝族（凉山特产的彝族）</p>
+            </div>
+            <div class="flex flex1 mgr2 column dh yy">
+              <p class="jz">电子邮箱3538960785@qq.com(如果图片侵权请联系我哦)</p>
+            </div>
+            <div class="flex flex1 mgr2 column dh yy">
+              <p class="jz">B站账号名：我是胡强</p>
+            </div>
+            <div class="flex flex1 mgr2 column dh yy">
+              <p class="jz">星座：处女（现在没人在乎这个了吧）</p>
+              <p class="jz">下面是我的兴趣爱好</p>
+            </div>
+          </div>
+        </div>
+        <!-- 兴趣爱好 -->
+        <div class="flex flex3 zongst column mgr5">
+          <!-- 足球区 -->
+          <div class="flex flex1 mgr5">
+            <!-- 图片区 -->
+            <div class="flex2 mgr5 flex">
+              <div class="flex1 yy">
+                <img src="tp/cl.jpg" class="img mgr2 yy" />
+              </div>
+              <div class="flex1 yy">
+                <img src="tp/ms.jpg" class="img mgr5 yy" />
+              </div>
+            </div>
+            <!-- 文字区 -->
+            <div class="flex1 mgr5 flex  mgr2 column dh yy">
+              <p class="jz">
+                FootBall：世界第一运动，多少人为他热血，多少人为他失望；及时足球虐我千百遍，我待足球如初恋。
+              </p>
+            </div>
+          </div>
+          <!-- 编程区 -->
+          <div class="flex1 flex mgr5">
+            <!-- 文字区 -->
+            <div class="flex flex1 mgr2 column mgr5 dh yy">
+              <p class="jz">
+                编程：一入编程深似海，如果不让其成为自己的动力那干脆，就把丢掉，不要让不喜欢的东西成为自己的负担！
+              </p>
+            </div>
+            <!-- 图片区 -->
+            <div class="flex2 mgr5 yy">
+              <img src="tp/dm.jpg " class="img" />
+            </div>
+          </div>
+          <!-- jk区 -->
+          <div class="flex1 flex mgr5">
+            <!-- 图片区 -->
+            <div class="flex2 mgr5 flex column">
+              <!-- 上半区 -->
+              <div class="flex1 flex mgr5">
+                <div class="flex1 yy">
+                  <img src="tp/jk1.jpg " class="img1 " />
+                </div>
+                <div class="flex1 yy">
+                  <img src="tp/jk2.jpg " class="img1" />
+                </div>
+              </div>
+              <!-- 下半区 -->
+              <div class="flex1 flex mgr5">
+                <div class="flex1 yy">
+                  <img src="tp/jk3.jpg " class="img1" />
+                </div>
+                <div class="flex1 yy">
+                  <img src="tp/jk4.jpg " class="img1" />
+                </div>
+              </div>
+            </div>
+            <!-- 文字区 -->
+            <div class="flex flex1 mgr2 column mgr5 dh yy">
+             <p class="jz">JK：爱美之心人皆有之，我也不知道我为什么会喜欢这种风格，或许就是一种单纯的喜欢，就像突然喜欢某个人、某件事那样的单纯。</p>
+            </div>
+          </div>
+        </div>
+        <!-- 人生总结 -->
+        <div class="flex flex3 zongst column mgr5">
+          <!-- 回顾自己区 -->
+          <div class="flex1 flex mgr5">
+            <!-- 文字区 -->
+            <div class="flex flex1 mgr2 column mgr5 dh yy">
+              <p class="jz">
+                有没有想过自己的一生，是平平无奇，还是光芒万丈？其实我们所拥有的一切到后来终将失去，又或许在离开前在这个渺小的世界前留下属于自己的痕迹？
+              </p>
+            </div>
+            <!-- 图片区 -->
+            <div class="flex2 mgr5">
+              <img src="tp/r1.jpg" class="img mgr2 yy" />
+            </div>
+          </div>
+          <!-- 努力的意义区 -->
+          <div class="flex1 flex mgr5">
+            <!-- 图片区 -->
+            <div class="flex2 mgr5">
+              <img src="tp/r2.jpg" class="img mgr2 yy" />
+            </div>
+            <!-- 文字区 -->
+            <div class="flex flex1 mgr2 column mgr5 dh yy">
+              <p class="jz">
+              为了在这世界留下痕迹，我必须努力，我不是天才少年，我没有过才智、没有过人的体格、也没有过人财富；我渴望改变，确如石沉大海；但我内心的呼声一直会不断响起，去抗争、去奋斗、去努力！输了可不好玩所以绝对不会也不允许自己输！
+            </p>
+          </div>
+          </div>
+          <!-- 人生目标区 -->
+          <div class="flex1 flex mgr5">
+            <!-- 文字区 -->
+            <div class="flex flex1 mgr2 column mgr5 dh yy">
+              <p class="jz">
+                当然你总得有个目标去奋斗吧，而我的目标就是：在实现伟大复兴的征程中实现人生理想；那便是左手搂着JK右手喝着饮料并过好每一个明天。仅此献给所有正在改变、奋斗的每一个人。
+              </p>
+            </div>
+            <!-- 图片区 -->
+            <div class="flex2 ">
+              <img src="tp/r3.jpg" class="img mgr2 yy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 底部栏 -->
+    <div class="flex flex2  column dh yy" style="
+        background-color: rgb(226, 202, 206);
+        text-align: center;
+        font-size: 20px;
+      ">
+      <p>图片均来自网络，如果侵权记得联系我！！！</p>
+      <p>我的网站</p>
+      本网站图片来源<a href="https://www.zcool.com.cn/discover">站酷网</a>
+    </div>
+  </body>
+</html>
